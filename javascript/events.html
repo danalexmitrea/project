@@ -1,0 +1,34 @@
+(Definition)
+
+<p>
+	HTML events are "things" that happen to HTML elements.
+    When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+</p>
+
+<p>
+	Often, when events happen, you may want to do something.
+
+	JavaScript lets you execute code when events are detected.
+
+	HTML allows event handler attributes, with JavaScript code, to be added to HTML elements.	
+</p>
+
+Syntax
+<pre>
+	<some-HTML-element some-event='some JavaScript'>
+</pre>
+
+Code (list of some common HTML events)
+Event	Description
+onchange	An HTML element has been changed
+onclick	The user clicks an HTML element
+onmouseover	The user moves the mouse over an HTML element
+onmouseout	The user moves the mouse away from an HTML element
+onkeydown	The user pushes a keyboard key
+onload	The browser has finished loading the page
+
+Example
+
+<button onclick="getElementById('demo').innerHTML=Date()">The time is?</button>
+
+<p id="demo"></p>
